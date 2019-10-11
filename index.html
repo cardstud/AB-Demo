@@ -39,7 +39,14 @@
                  'experiment1_text': 'You better click that button...',
                  'experiment1_button':
                        '<input type="button" value="Click me, OR ELSE" onclick="ga(\'send\', \'event\', \'buttonclick\', \'stern\'); alert(\'You will be spared.\');">'
+             },
+             {
+                 name: 'variant3',
+                 'experiment1_text': 'Click now and become an instant Vegas Golden Knights fan...',
+                 'experiment1_button':
+                       '<input type="button" value="Click me, OR ELSE" onclick="ga(\'send\', \'event\', \'buttonclick\', \'neutral\'); alert(\'Welcome new VGK FAN!!.\');">'
              }
+          
          ]
      });
      ga('send', 'pageview');
